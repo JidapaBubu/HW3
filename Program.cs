@@ -1,5 +1,4 @@
-﻿0
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
@@ -22,11 +21,11 @@ class Program
         }
 
         while(a.GetLength()!=0){
-            int a = n.Pop();
-            Console.Write(a);
+            int n = a.Pop();
+            Console.Write(n);
 
-            if (a == 1){a.Push(2);a.Push(2);}
-            else if (a == 2){a.Push(3);a.Push(3);a.Push(3);}
+            if (n == 1){a.Push(2);a.Push(2);}
+            else if (n == 2){a.Push(3);a.Push(3);a.Push(3);}
         }
     }
 }
